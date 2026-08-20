@@ -1,0 +1,15 @@
+{
+  "slug": "karte",
+  "name": "Karte",
+  "version": "0.1.0",
+  "description": "Zeigt Standortreihen auf einer Karte: Spur je Zeitraum, letzte Position, benannte Orte.",
+  "icon": "🗺️",
+  "entry": "index.html",
+  "contributions": [
+    { "typ": "seite", "pfad": "", "label": "Karte", "icon": "🗺️" }
+  ],
+  "liest": ["series:location"],
+  "csp": {
+    "img-src": ["https://tile.openstreetmap.org", "https://*.tile.openstreetmap.org"]
+  }
+}
