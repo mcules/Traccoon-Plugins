@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<title>Hello</title>
+<link rel="stylesheet" href="style.css">
+<h1>Hello from a plugin</h1>
+<p class="note">
+  This page runs in a sandboxed frame. It knows neither the token nor the API — everything
+  below arrives over the bridge to the host.
+</p>
+<h2>Who am I</h2>
+<pre id="me">…</pre>
+<h2>Series <small>(needs the right <code>series:number</code>)</small></h2>
+<pre id="series">…</pre>
+<h2>What happens without a grant</h2>
+<pre id="refused">…</pre>
+<script src="/api/plugins/_bridge.js"></script>
+<script src="app.js"></script>

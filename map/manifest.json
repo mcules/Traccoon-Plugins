@@ -1,0 +1,15 @@
+{
+  "slug": "map",
+  "name": "Map",
+  "version": "0.2.0",
+  "description": "Shows location series on a map: track per time range, last position, named places.",
+  "icon": "🗺️",
+  "entry": "index.html",
+  "contributions": [
+    { "type": "page", "path": "", "label": "Map", "icon": "🗺️" }
+  ],
+  "reads": ["series:location"],
+  "csp": {
+    "img-src": ["https://tile.openstreetmap.org", "https://*.tile.openstreetmap.org"]
+  }
+}

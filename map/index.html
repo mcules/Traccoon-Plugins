@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map</title>
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="style.css">
+
+<div id="shell">
+  <aside id="side">
+    <div class="head">Devices</div>
+    <div id="series" class="list"><div class="empty">loading …</div></div>
+    <div class="head">Places</div>
+    <div id="places" class="list"><div class="empty">–</div></div>
+  </aside>
+
+  <main id="main">
+    <div id="bar">
+      <div id="ranges" class="buttons"></div>
+      <div class="grow"></div>
+      <span id="status" class="status"></span>
+    </div>
+    <div id="map"></div>
+    <div id="scrubber" class="hidden">
+      <input type="range" id="slider" min="0" max="0" value="0">
+      <span id="stamp" class="status"></span>
+    </div>
+  </main>
+</div>
+
+<script src="/api/plugins/_bridge.js"></script>
+<script src="vendor/leaflet.js"></script>
+<script src="app.js"></script>

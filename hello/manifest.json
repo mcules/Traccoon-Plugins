@@ -1,0 +1,12 @@
+{
+  "slug": "hello",
+  "name": "Hello",
+  "version": "0.2.0",
+  "description": "Example and proof: fetches your own series over the bridge and shows what happens without a grant.",
+  "icon": "👋",
+  "entry": "index.html",
+  "contributions": [
+    { "type": "page", "path": "", "label": "Hello", "icon": "👋" }
+  ],
+  "reads": ["series:number"]
+}
